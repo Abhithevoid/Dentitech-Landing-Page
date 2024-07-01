@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mona Sans", Helvetica;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.nav{
+    height: 100px;
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-part1 h3{
+    border: 1px solid#000;
+    padding: 3px 6px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.nav-part2 h1{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.nav-part3 button{
+    padding: 8px 12px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.nav-part3 #btn2{
+    background-color: #FE4F26;
+    color: #fff;
+    border: none;
+}
+
+#main>h1{
+    font-size: 120px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    height:400px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+}
+
+#img1{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-size: 17px;
+}
+
+#btm-right{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 15px;
+}
+
+.instagram{
+    position: absolute;
+    bottom: 10%;
+    right: 15%;
+}
+
+.youtube{
+    position: absolute;
+    bottom: 10%;
+    right: 13%;
+}
+.facebook{
+    position: absolute;
+    bottom: 10%;
+    right: 11%;
+}
